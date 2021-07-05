@@ -1,0 +1,50 @@
+#question1:
+fname = input("yassine : ")
+lname = input("benabdallah : ")
+print ("Hello  " + yassine + " " + benabdallah)
+
+#question2:
+n=input ("addtionner un entier n ")
+B=(int(n)+int(n+n)+int(n+n+n))
+print (B,"(",n,"+",n+n,"+",n+n+n,")")
+
+#question3:
+num = int(input("Enter a number: "))
+mod = num % 2
+if mod > 0:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")
+
+#question4:
+nl=[]
+for x in range(1500, 2701):
+    if (x%7==0) and (x%5==0):
+        nl.append(str(x))
+print (','.join(nl))
+
+#question5:
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+n=int(input("Input a number to compute the factiorial : "))
+print(factorial(n))
+
+#question6:
+ch=(input("entrer une chaine de caractère"))
+n=''
+for i in range(len(ch)):
+    if i%2==0:
+        n=n+ch[i]
+
+#question7:
+n=input("entrer un entier n")
+n=int(n)
+if n>=500:
+    print(n(1-50/100))
+elif n>=200 and n<500:
+    print(n1-30/100)
+else:
+    print(n*1-10/100)
